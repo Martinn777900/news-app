@@ -20,24 +20,34 @@ class MainActivity : AppCompatActivity() {
         // Create list of news
         val newsList = listOf(
             News(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened"
+                "AI Education Platform Launched",
+                "A new AI-powered platform helps students learn faster and smarter.",
+                R.drawable.education
             ),
             News(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened"
+                "Global Financial Markets Rise",
+                "Stock markets worldwide saw significant growth this week.",
+                R.drawable.financial
             ),
             News(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened"
+                "Localization Technology Advances",
+                "New GPS and indoor positioning systems improve global navigation.",
+                R.drawable.localization
             ),
             News(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened"
+                "Robotic Hand Breakthrough",
+                "Engineers developed a robotic hand with human-like precision.",
+                R.drawable.robotic_hand
             ),
             News(
-                "This is the news title",
-                "This is the news description and it contains a summary of what happened"
+                "Championship Sports Update",
+                "The national team secured a dramatic last-minute victory.",
+                R.drawable.sports
+            ),
+            News(
+                "Extreme Weather Alert",
+                "Heavy storms are expected across several regions this weekend.",
+                R.drawable.weather
             )
         )
 

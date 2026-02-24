@@ -28,7 +28,7 @@ class NewsAdapter(private val newsList: List<News>) :
         val item = newsList[position]
         holder.title.text = item.title
         holder.desc.text = item.description
-        holder.icon.setImageResource(R.mipmap.ic_launcher_round)
+        holder.icon.setImageResource(item.iconResId)
     }
 
     override fun getItemCount(): Int = newsList.size
