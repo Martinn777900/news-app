@@ -4,6 +4,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.DividerItemDecoration
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +18,9 @@ class MainActivity : AppCompatActivity() {
 
         // Set LayoutManager
         recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.addItemDecoration(
+            DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
+        )
 
         // Create list of news
         val newsList = listOf(
